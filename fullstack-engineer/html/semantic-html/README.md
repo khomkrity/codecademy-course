@@ -11,3 +11,4 @@
 - **\<figure>** encapsulates all types of media.
 - **\<figcaption>** is used to describe the media in **\<figure>**.
 - **\<video>**, **\<embed>**, and **\<audio>** elements are used for media files.
+- **\<time>** represents either a time of day or a calendar date.
