@@ -12,3 +12,4 @@
 - **\<figcaption>** is used to describe the media in **\<figure>**.
 - **\<video>**, **\<embed>**, and **\<audio>** elements are used for media files.
 - **\<time>** represents either a time of day or a calendar date.
+- **\<address>** defines contact information for the author of the article or web page.
