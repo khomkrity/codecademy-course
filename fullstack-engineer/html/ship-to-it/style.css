@@ -74,6 +74,11 @@ td {
   width: 33.3333%;
 }
 
+tfoot td {
+  font-weight: bold;
+  font-style: italic;
+}
+
 .search {
   background-color: #fff;
   border: 1px solid #ddd;
