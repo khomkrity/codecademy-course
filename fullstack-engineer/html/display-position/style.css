@@ -6,6 +6,9 @@ body {
 header {
   background-color: #466995;
   border-bottom: 1px solid #466995;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 ul {
@@ -20,6 +23,8 @@ li {
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
+  display: inline-block;
+  width: 80px;
 }
 
 li:hover {
@@ -71,6 +76,7 @@ p {
 footer {
   background-color: #dbe9ee;
   text-align: center;
+  height: 100px;
 }
 
 .welcome {
@@ -79,15 +85,20 @@ footer {
   padding: 40px;
   text-align: center;
   width: 100%;
+  position: relative;
+  top: 50px;
 }
 
 .question {
   text-align: center;
+  position: relative;
+  top: 40px;
 }
 
 .answer {
   border: 1px solid #466995;
   margin: 20px;
+  display: inline-block;
 }
 
 .answer:hover {
