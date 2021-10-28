@@ -1,16 +1,19 @@
-html,
-body {
+* {
   margin: 0;
   padding: 0;
 }
 
 header {
   background-color: #333333;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 nav {
   margin: 0;
   padding: 20px 0;
+  text-align: center;
 }
 
 nav li {
@@ -18,14 +21,24 @@ nav li {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 12px;
+  display: inline-block;
+  width: 80px;
+}
+
+nav li:hover {
+  cursor: pointer;
+  color: lightcyan;
 }
 
 main {
   text-align: center;
+  position: relative;
 }
 
 main h1 {
   color: #333;
+  position: relative;
+  top: 100px;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 70px;
@@ -64,6 +77,8 @@ footer p {
 }
 
 .btn-main {
+  position: relative;
+  top: 50px;
   background-color: #333;
   color: #fff;
   font-family: 'Raleway', sans-serif;
@@ -73,6 +88,10 @@ footer p {
   padding: 16px 40px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.btn-main:hover {
+  color: lightcyan;
 }
 
 .btn-default {
@@ -94,6 +113,10 @@ footer p {
 .supporting .col {
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  line-height: 1.5;
 }
 
 .supporting img {
@@ -126,6 +149,11 @@ footer p {
   padding: 10px;
   margin-bottom: 10px;
   border: 2px solid #333333;
+}
+
+.supporting a:hover {
+  background-color: #333333;
+  color: white;
 }
 
 @media (max-width: 500px) {
