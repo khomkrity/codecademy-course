@@ -37,7 +37,7 @@ main {
   background-color: #57cc99;
 }
 
-section.card {
+.card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 30%;
   margin: 15px;
@@ -83,10 +83,19 @@ footer {
   font-style: italic;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   header {
     font-size: 20px;
     text-align: center;
+  }
+
+  main {
+    flex-flow: column wrap;
+  }
+
+  .card {
+    align-self: center;
+    width: 50%;
   }
 
   .card-header {
