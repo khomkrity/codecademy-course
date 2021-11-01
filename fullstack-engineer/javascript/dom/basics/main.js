@@ -19,7 +19,6 @@ lists.removeChild(removedList);
 
 let firstChild = document.body.firstChild;
 firstChild.nextSibling.textContent += ' (more like a tree!)';
-// firstChild.
 
 let button = document.getElementById('button');
 button.style.width = '120px';
