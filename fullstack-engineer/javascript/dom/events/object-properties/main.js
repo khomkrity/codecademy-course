@@ -10,6 +10,11 @@ function colorValue() {
 }
 
 function colorChange(event) {
+  console.log(
+    `the event: ${event.target} of type ${event.type} was fired ${
+      event.timeStamp / 1000
+    } seconds after the DOM was rendered`
+  );
   let randomColor = 'rgb(' + colorValue() + ',' + colorValue() + ',' + colorValue() + ')';
   event.target.style.backgroundColor = randomColor;
 }
