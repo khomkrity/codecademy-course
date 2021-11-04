@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <title>Basic Form Validation</title>
+    <meta charset="utf-8" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" />
   </head>
   <body>
-    <h1>Basic HTML Validation</h1>
-    <form action="" method="POST">
-      <label for="text">Enter your name here:</label>
-      <input id="name" name="name" type="text" required minlength="3" maxlength="100" />
-      <br /><br />
-      <label for="number">Enter your age here:</label>
-      <input type="number" name="age" id="age" required min="1" max="123" />
-      <br /><br />
-      <label for="code">Best place to learn to code: (hint: starts with a "C")</label>
-      <input id="code" name="code" type="text" required pattern="[cC]odecademy" />
-      <br /><br />
-      <input type="submit" value="Submit" />
-    </form>
+    <section class="overlay">
+      <h1>Sign Up</h1>
+      <p>Create an account:</p>
+      <form action="" method="GET">
+        <label for="username">Username:</label>
+        <br />
+        <input id="username" name="username" type="text" required minlength="3" maxlength="15" />
+        <br />
+        <label for="pw">Password:</label>
+        <br />
+        <!--Add the pattern attribute to the input below-->
+        <input id="pw" name="pw" type="password" required minlength="8" maxlength="15" />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
   </body>
 </html>
