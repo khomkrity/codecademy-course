@@ -5,10 +5,15 @@ body {
 
 form {
   line-height: 27px;
+  height: 100%;
 }
 
 h2 {
   font-size: 20px;
+}
+
+input {
+  margin-bottom: 10px;
 }
 
 input[type='text'],
@@ -29,6 +34,11 @@ input[type='radio'] {
   border-radius: 15px;
   margin: 2% 10%;
   overflow: auto;
+}
+
+#form {
+  width: 50%;
+  margin: 0 auto;
 }
 
 #story {
@@ -54,4 +64,23 @@ input[type='radio'] {
 .word {
   font-weight: bold;
   text-decoration: underline;
+}
+
+textarea {
+  margin-top: 10px;
+}
+
+input[type='submit'] {
+  font-weight: 600;
+  border-color: #30475e;
+  color: white;
+  background-color: #30475e;
+  margin-top: 15px;
+  width: 150px;
+  height: 30px;
+}
+
+input[type='submit']:hover {
+  cursor: pointer;
+  background-color: #455d7a;
 }
